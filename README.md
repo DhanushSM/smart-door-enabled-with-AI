@@ -1,4 +1,3 @@
-Here is a complete README.md file for your project. I've also included the content for a requirements.txt file, which you should create.
 
 Smart Door Face Detection Client
 This repository contains the client-side Python script for a Smart Door system. The application uses OpenCV to capture video from a local webcam, detect faces, and send the captured face images to a remote server for processing (e.g., recognition, logging).
@@ -68,11 +67,7 @@ Before running the script, you must update the server_url variable to point to y
 
 Python
 
-# ... (lines 27-28 in your script)
 
-      # Send the encoded face image to a server (replace with your server details)
-      server_url = 'https://your-server-url.com/upload_face' # <-- UPDATE THIS LINE
-      data = {'face_image': face_base64}
 # ...
 ▶️ How to Run
 Make sure your webcam is connected and not in use by another application.
